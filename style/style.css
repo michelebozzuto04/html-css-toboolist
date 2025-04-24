@@ -4,3 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F8F9;
+}
+
+header {
+    height: 70px;
+    background-color: white;
+}
+
+h1 {
+    display: inline-block;
+    line-height: 70px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#logo {
+    vertical-align: middle;
+    line-height: 70px;
+}
