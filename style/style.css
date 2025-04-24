@@ -5,6 +5,26 @@
     box-sizing: border-box;
 }
 
+/* Utilities */
+
+.btn-fill {
+    color: white;
+    background-color: #47ADF1;
+    border: 2px solid #47ADF1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.btn-outlined {
+    color: #8d8d8d;
+    background-color: #fff;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
 /* Generics */
 body {
     font-family: "Roboto", sans-serif;
@@ -30,9 +50,30 @@ main {
     border-radius: 5px;
 }
 
+ul {
+    list-style-position: inside;
+}
+
 /* Header */
 #logo {
     vertical-align: middle;
 }
 
 /* Main Content */
+.action-section {
+    padding: 20px 50px;
+}
+
+.task-section {
+    padding: 20px 50px;
+}
+
+.divider {
+    height: 4px;
+    background-color: #F6F8F9;
+}
+
+.task-category {
+    font-size: 20px;
+    font-weight: 800;
+}
