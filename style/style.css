@@ -51,7 +51,9 @@ main {
 }
 
 ul {
+    font-size: 20px;
     list-style-position: inside;
+    list-style-type: none;
 }
 
 /* Header */
@@ -73,7 +75,38 @@ ul {
     background-color: #F6F8F9;
 }
 
-.task-category {
-    font-size: 20px;
+.task-status {
+    font-size: 22px;
     font-weight: 800;
+}
+
+.list-check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid #64C0A9;
+    color: #64C0A9;
+    margin-right: 10px;
+}
+
+.list-cross {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    border: 2px solid #EA4439;
+    color: #EA4439;
+    margin-right: 10px;
+}
+
+.tag-category {
+    color: white;
+    background-color: #000;
 }
