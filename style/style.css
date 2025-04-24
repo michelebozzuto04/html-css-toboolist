@@ -23,7 +23,16 @@ h1 {
     font-weight: 900;
 }
 
+main {
+    background-color: white;
+    max-width: 1080px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+/* Header */
 #logo {
     vertical-align: middle;
-    line-height: 70px;
 }
+
+/* Main Content */
